@@ -25,7 +25,6 @@ html {
   font-size: 3rem;
 }
 .history p {
-  width: 25%;
   margin-bottom: 1rem;
 }
 .history div {
@@ -42,6 +41,9 @@ html {
 .result {
   display: flex;
   justify-content: space-evenly;
+}
+.result p {
+  width: 25%;
 }
 
 .shifumi {
