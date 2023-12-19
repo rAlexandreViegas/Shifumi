@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+
+.history {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  font-size: 3rem;
+}
+.history p {
+  width: 25%;
+  margin-bottom: 1rem;
+}
+.history div {
+  width: 100%;
+}
+.history button {
+  cursor: pointer;
+  width: 25rem;
+  height: 10rem;
+  font-size: 3rem;
+  border-radius: 2rem;
+}
+
+.result {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.shifumi {
+  flex: 4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10rem;
+  height: 100%;
+  font-size: 4rem;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+
+.choices {
+  display: flex;
+  gap: 10rem;
+}
+.choices button {
+  cursor: pointer;
+  width: 20rem;
+  height: 20rem;
+  font-size: 3rem;
+  border-radius: 2rem;
+}

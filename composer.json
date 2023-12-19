@@ -1,0 +1,16 @@
+{
+  "name": "alexandre/shifumi",
+  "description": "Shifumi",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Alexa\\Shifumi\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Alexandre",
+      "email": "alexandre_viegas@icloud.com"
+    }
+  ]
+}
